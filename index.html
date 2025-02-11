@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>  
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora Certa</title>
+    <link rel="stylesheet" href="styles.css">   
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9117152049925148"
+     crossorigin="anonymous"></script> 
+</head>
+<body>
+    <header>
+        <h1>Hora Certa</h1>
+    </header>
+    <nav>
+        <a href="#relogio">Relógio</a>
+        <a href="#cronometro">Cronômetro</a>
+        <a href="#timer">Timer</a>
+    </nav>
+    <div class="container">
+        <section id="relogio">
+            <h2>Relógio</h2>
+            <div class="clock" id="current-time">20:58:32</div>
+            <div id="current-date">segunda-feira, 10/02/2025</div>
+        </section>
+        <section id="cronometro">
+            <h2>Cronômetro</h2>
+            <div class="clock" id="stopwatch">00:00:00</div>
+            <div class="controls">
+                <button id="start-stopwatch">Iniciar</button>
+                <button id="stop-stopwatch">Parar</button>
+                <button id="reset-stopwatch">Resetar</button>
+            </div>
+        </section>
+        <section id="timer">
+            <h2>Timer</h2>
+            <div class="controls">
+                <input type="number" id="timer-minutes" placeholder="Minutos" min="0">
+                <input type="number" id="timer-seconds" placeholder="Segundos" min="0" max="59">
+                <button id="start-timer">Iniciar</button>
+                <button id="reset-timer">Resetar</button>
+            </div>
+            <div class="clock" id="timer-display">00:00</div>
+        </section>
+    </div>
+    <footer>
+        © 2025 Hora Certa. Todos os direitos reservados. Desenvolvido por SR.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
